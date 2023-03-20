@@ -11,27 +11,7 @@
 		23B62DDF29C864BD006A91E5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23B62DDE29C864BD006A91E5 /* ContentView.swift */; };
 		23B62DE129C864BF006A91E5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 23B62DE029C864BF006A91E5 /* Assets.xcassets */; };
 		23B62DE529C864BF006A91E5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 23B62DE429C864BF006A91E5 /* Preview Assets.xcassets */; };
-		23B62DEF29C864BF006A91E5 /* InterpolationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23B62DEE29C864BF006A91E5 /* InterpolationTests.swift */; };
-		23B62DF929C864BF006A91E5 /* InterpolationUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23B62DF829C864BF006A91E5 /* InterpolationUITests.swift */; };
-		23B62DFB29C864BF006A91E5 /* InterpolationUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23B62DFA29C864BF006A91E5 /* InterpolationUITestsLaunchTests.swift */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		23B62DEB29C864BF006A91E5 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 23B62DD129C864BD006A91E5 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 23B62DD829C864BD006A91E5;
-			remoteInfo = Interpolation;
-		};
-		23B62DF529C864BF006A91E5 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 23B62DD129C864BD006A91E5 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 23B62DD829C864BD006A91E5;
-			remoteInfo = Interpolation;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		23B62DD929C864BD006A91E5 /* Interpolation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Interpolation.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -40,29 +20,10 @@
 		23B62DE029C864BF006A91E5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		23B62DE229C864BF006A91E5 /* Interpolation.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Interpolation.entitlements; sourceTree = "<group>"; };
 		23B62DE429C864BF006A91E5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		23B62DEA29C864BF006A91E5 /* InterpolationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = InterpolationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		23B62DEE29C864BF006A91E5 /* InterpolationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterpolationTests.swift; sourceTree = "<group>"; };
-		23B62DF429C864BF006A91E5 /* InterpolationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = InterpolationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		23B62DF829C864BF006A91E5 /* InterpolationUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterpolationUITests.swift; sourceTree = "<group>"; };
-		23B62DFA29C864BF006A91E5 /* InterpolationUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterpolationUITestsLaunchTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		23B62DD629C864BD006A91E5 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		23B62DE729C864BF006A91E5 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		23B62DF129C864BF006A91E5 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -76,8 +37,6 @@
 			isa = PBXGroup;
 			children = (
 				23B62DDB29C864BD006A91E5 /* Interpolation */,
-				23B62DED29C864BF006A91E5 /* InterpolationTests */,
-				23B62DF729C864BF006A91E5 /* InterpolationUITests */,
 				23B62DDA29C864BD006A91E5 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -86,8 +45,6 @@
 			isa = PBXGroup;
 			children = (
 				23B62DD929C864BD006A91E5 /* Interpolation.app */,
-				23B62DEA29C864BF006A91E5 /* InterpolationTests.xctest */,
-				23B62DF429C864BF006A91E5 /* InterpolationUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -112,23 +69,6 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		23B62DED29C864BF006A91E5 /* InterpolationTests */ = {
-			isa = PBXGroup;
-			children = (
-				23B62DEE29C864BF006A91E5 /* InterpolationTests.swift */,
-			);
-			path = InterpolationTests;
-			sourceTree = "<group>";
-		};
-		23B62DF729C864BF006A91E5 /* InterpolationUITests */ = {
-			isa = PBXGroup;
-			children = (
-				23B62DF829C864BF006A91E5 /* InterpolationUITests.swift */,
-				23B62DFA29C864BF006A91E5 /* InterpolationUITestsLaunchTests.swift */,
-			);
-			path = InterpolationUITests;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -149,42 +89,6 @@
 			productReference = 23B62DD929C864BD006A91E5 /* Interpolation.app */;
 			productType = "com.apple.product-type.application";
 		};
-		23B62DE929C864BF006A91E5 /* InterpolationTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 23B62E0129C864BF006A91E5 /* Build configuration list for PBXNativeTarget "InterpolationTests" */;
-			buildPhases = (
-				23B62DE629C864BF006A91E5 /* Sources */,
-				23B62DE729C864BF006A91E5 /* Frameworks */,
-				23B62DE829C864BF006A91E5 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				23B62DEC29C864BF006A91E5 /* PBXTargetDependency */,
-			);
-			name = InterpolationTests;
-			productName = InterpolationTests;
-			productReference = 23B62DEA29C864BF006A91E5 /* InterpolationTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		23B62DF329C864BF006A91E5 /* InterpolationUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 23B62E0429C864BF006A91E5 /* Build configuration list for PBXNativeTarget "InterpolationUITests" */;
-			buildPhases = (
-				23B62DF029C864BF006A91E5 /* Sources */,
-				23B62DF129C864BF006A91E5 /* Frameworks */,
-				23B62DF229C864BF006A91E5 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				23B62DF629C864BF006A91E5 /* PBXTargetDependency */,
-			);
-			name = InterpolationUITests;
-			productName = InterpolationUITests;
-			productReference = 23B62DF429C864BF006A91E5 /* InterpolationUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -197,14 +101,6 @@
 				TargetAttributes = {
 					23B62DD829C864BD006A91E5 = {
 						CreatedOnToolsVersion = 14.2;
-					};
-					23B62DE929C864BF006A91E5 = {
-						CreatedOnToolsVersion = 14.2;
-						TestTargetID = 23B62DD829C864BD006A91E5;
-					};
-					23B62DF329C864BF006A91E5 = {
-						CreatedOnToolsVersion = 14.2;
-						TestTargetID = 23B62DD829C864BD006A91E5;
 					};
 				};
 			};
@@ -222,8 +118,6 @@
 			projectRoot = "";
 			targets = (
 				23B62DD829C864BD006A91E5 /* Interpolation */,
-				23B62DE929C864BF006A91E5 /* InterpolationTests */,
-				23B62DF329C864BF006A91E5 /* InterpolationUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -235,20 +129,6 @@
 			files = (
 				23B62DE529C864BF006A91E5 /* Preview Assets.xcassets in Resources */,
 				23B62DE129C864BF006A91E5 /* Assets.xcassets in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		23B62DE829C864BF006A91E5 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		23B62DF229C864BF006A91E5 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -264,37 +144,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		23B62DE629C864BF006A91E5 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				23B62DEF29C864BF006A91E5 /* InterpolationTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		23B62DF029C864BF006A91E5 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				23B62DF929C864BF006A91E5 /* InterpolationUITests.swift in Sources */,
-				23B62DFB29C864BF006A91E5 /* InterpolationUITestsLaunchTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		23B62DEC29C864BF006A91E5 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 23B62DD829C864BD006A91E5 /* Interpolation */;
-			targetProxy = 23B62DEB29C864BF006A91E5 /* PBXContainerItemProxy */;
-		};
-		23B62DF629C864BF006A91E5 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 23B62DD829C864BD006A91E5 /* Interpolation */;
-			targetProxy = 23B62DF529C864BF006A91E5 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		23B62DFC29C864BF006A91E5 /* Debug */ = {
@@ -482,96 +332,6 @@
 			};
 			name = Release;
 		};
-		23B62E0229C864BF006A91E5 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 79NBZML2KJ;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
-				MACOSX_DEPLOYMENT_TARGET = 13.1;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.agapovco.InterpolationTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Interpolation.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Interpolation";
-			};
-			name = Debug;
-		};
-		23B62E0329C864BF006A91E5 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 79NBZML2KJ;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
-				MACOSX_DEPLOYMENT_TARGET = 13.1;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.agapovco.InterpolationTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Interpolation.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Interpolation";
-			};
-			name = Release;
-		};
-		23B62E0529C864BF006A91E5 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 79NBZML2KJ;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
-				MACOSX_DEPLOYMENT_TARGET = 13.1;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.agapovco.InterpolationUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = Interpolation;
-			};
-			name = Debug;
-		};
-		23B62E0629C864BF006A91E5 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 79NBZML2KJ;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
-				MACOSX_DEPLOYMENT_TARGET = 13.1;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.agapovco.InterpolationUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = Interpolation;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -589,24 +349,6 @@
 			buildConfigurations = (
 				23B62DFF29C864BF006A91E5 /* Debug */,
 				23B62E0029C864BF006A91E5 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		23B62E0129C864BF006A91E5 /* Build configuration list for PBXNativeTarget "InterpolationTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				23B62E0229C864BF006A91E5 /* Debug */,
-				23B62E0329C864BF006A91E5 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		23B62E0429C864BF006A91E5 /* Build configuration list for PBXNativeTarget "InterpolationUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				23B62E0529C864BF006A91E5 /* Debug */,
-				23B62E0629C864BF006A91E5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
