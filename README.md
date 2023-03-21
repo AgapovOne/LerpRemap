@@ -10,6 +10,7 @@ remap(fromMin:fromMax:toMin:toMax:)
 clamped(min:max:)
 ```
 
+![](./demo.gif)
 
 
 ## Demo
