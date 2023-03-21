@@ -11,6 +11,7 @@
 		23B62DDF29C864BD006A91E5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23B62DDE29C864BD006A91E5 /* ContentView.swift */; };
 		23B62DE129C864BF006A91E5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 23B62DE029C864BF006A91E5 /* Assets.xcassets */; };
 		23B62DE529C864BF006A91E5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 23B62DE429C864BF006A91E5 /* Preview Assets.xcassets */; };
+		23F532F729C89A2000714086 /* LerpRemap in Frameworks */ = {isa = PBXBuildFile; productRef = 23F532F629C89A2000714086 /* LerpRemap */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +28,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				23F532F729C89A2000714086 /* LerpRemap in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -38,6 +40,7 @@
 			children = (
 				23B62DDB29C864BD006A91E5 /* Interpolation */,
 				23B62DDA29C864BD006A91E5 /* Products */,
+				23F532F529C89A2000714086 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -69,6 +72,13 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		23F532F529C89A2000714086 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -85,6 +95,9 @@
 			dependencies = (
 			);
 			name = Interpolation;
+			packageProductDependencies = (
+				23F532F629C89A2000714086 /* LerpRemap */,
+			);
 			productName = Interpolation;
 			productReference = 23B62DD929C864BD006A91E5 /* Interpolation.app */;
 			productType = "com.apple.product-type.application";
@@ -354,6 +367,13 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		23F532F629C89A2000714086 /* LerpRemap */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = LerpRemap;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 23B62DD129C864BD006A91E5 /* Project object */;
 }

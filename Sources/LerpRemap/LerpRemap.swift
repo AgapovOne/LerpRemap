@@ -1,6 +1,6 @@
 import Foundation
 
-extension BinaryFloatingPoint {
+public extension BinaryFloatingPoint {
 
     /// Linearly interpolates between min and max by value. Unclamped version
     ///
@@ -13,7 +13,7 @@ extension BinaryFloatingPoint {
     /// Examples:
     ///
     /// ```
-    /// // t.lerp(min: a, max: b)
+    /// // t.lerp(min: a, max: b) -> res
     ///-0.5.lerp(min: 0, max: 10) // -5
     /// 0.5.lerp(min: 0, max: 10) // 5
     /// 1.5.lerp(min: 0, max: 10) // 15
@@ -33,7 +33,18 @@ extension BinaryFloatingPoint {
         ((1.0 - self) * min + max * self)
     }
 
-    /// Inversed version of lerp.
+    /// Inversed version of lerp. Result of lerp function is used as an input to value in 0...1 range
+    ///
+    ///
+    /// Examples:
+    ///
+    /// ```
+    /// // res.lerp(min: a, max: b) -> t
+    /// -5.invLerp(min: 0, max: 10) // -0.5
+    /// 5.invLerp(min: 0, max: 10) // 0.5
+    /// 15.invLerp(min: 0, max: 10) // 1.5
+    /// ```
+    ///
     /// - Parameters:
     ///   - min: Start value
     ///   - max: End value
