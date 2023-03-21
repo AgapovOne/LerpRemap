@@ -14,7 +14,7 @@ public extension BinaryFloatingPoint {
     ///
     /// ```
     /// // t.lerp(min: a, max: b) -> res
-    ///-0.5.lerp(min: 0, max: 10) // -5
+    /// -0.5.lerp(min: 0, max: 10) // -5
     /// 0.5.lerp(min: 0, max: 10) // 5
     /// 1.5.lerp(min: 0, max: 10) // 15
     /// 1.5.lerp(min: 0, max: 10).clamped(min: 0, max: 10) // 10
